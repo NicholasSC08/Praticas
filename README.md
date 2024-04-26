@@ -1,2 +1,5 @@
-# Pr-ticas
-Práticas, criando e resolvendo exercícios aleatoriamente ;)
+Bem vindo(a) ao setor Boolean ;)
+
+Este setor é aonde eu armazeno meus exercícios práticados utilizando metodologia Booleana!
+
+
