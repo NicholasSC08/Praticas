@@ -1,0 +1,18 @@
+
+function soma(a, b, c){
+  let resultado = a + b
+  if(resultado < c){
+    console.log(`A soma dos números é: ${resultado}, entretanto, o terceiro número ainda é maior! Terceiro número: ${c}.`);
+  } else if(resultado == c) {
+    console.log(
+    `A soma dos números são semelhante ao valor do terceito número! Números somados: ${a}, ${b}. Terceiro número: ${c}`);
+  } else {
+    console.log(`A soma dos números é: ${resultado}, sendo assim, maior que o terceiro número!`);
+  };
+};
+
+let num1 = 10;
+let num2 = 35;
+let num3 = 55;
+soma(num1, num2, num3);
+//Mensagem exibida: A soma dos números é: 45, entretanto, o terceiro número ainda é maior! Terceiro número: 55.
