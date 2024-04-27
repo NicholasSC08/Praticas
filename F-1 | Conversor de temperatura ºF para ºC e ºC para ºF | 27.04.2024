@@ -1,0 +1,11 @@
+let temperatura = 50;
+
+function conversorCparaF(celsius){
+console.log(1.8 * celsius + 32);
+};
+
+function conversorFparaC(fahrenheit){
+console.log((fahrenheit - 32) / 1.8);
+};
+conversorCparaF(temperatura);
+conversorFparaC(temperatura); 
