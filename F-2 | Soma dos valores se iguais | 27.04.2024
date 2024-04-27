@@ -1,0 +1,12 @@
+function soma(a, b){
+    if(a == b){
+      console.log(`A soma dos valores é: ${a + b}.`);
+    } else{
+        console.log(`Os valores passados não são iguais, portanto não foram somados, valores passados: ${a}, ${b}.`);
+    };
+};
+let num1 = 15.2;
+let num2 = 15.2;
+soma(num1, num2);
+
+//Mensagem exibida: A soma dos valores é: 30.4. 
