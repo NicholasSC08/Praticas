@@ -1,0 +1,6 @@
+let lado = prompt(`Digite o lado do quadrado:`);
+      function calculoDaAreaQuadrado(a, b){
+            let resultado = a * a;
+            alert(`A área do quadrado é: ${resultado}`);
+      };
+      calculoDaAreaQuadrado(lado);
