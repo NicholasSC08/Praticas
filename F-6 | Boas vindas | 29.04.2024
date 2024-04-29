@@ -1,0 +1,7 @@
+  function chamada(){
+let name = prompt(`Digite seu nome:`);
+  return alert(`Seja Bem-vindo! ${name}!`);       
+};
+//Chamada de função
+chamada();
+//Objetivo, mostrar um alert lhe dando boas-vindas, após a digitação do seu nome em um prompt.
