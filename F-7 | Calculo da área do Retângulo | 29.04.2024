@@ -1,0 +1,7 @@
+let base = prompt(`Digite o valor da sua base:`);
+let altura = prompt(`Digite o valor da sua altura:`);
+    function calculoDaAreaRetangulo(b, a){
+           let resultado = b * a;
+           alert(`Área do Retângulo: ${resultado}.`); 
+};
+calculoDaAreaRetangulo(base, altura);
