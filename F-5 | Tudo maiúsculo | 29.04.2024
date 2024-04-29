@@ -1,0 +1,8 @@
+function capitalA(a){
+   console.log(a.toUpperCase());
+};
+
+let vireimaiusculo = `Este texto ficará todo maiúsculo!`;
+
+capitalA(vireimaiusculo);
+//Mensagem exíbida: ESTE TEXTO FICARÁ TODO MAIÚSCULO!
