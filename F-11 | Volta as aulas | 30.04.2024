@@ -1,0 +1,12 @@
+//3) Na volta as aulas cada aluno(a) ganhará 2 bombons (1 para si e 1 para os pais), além de 1 bombom para o(a) 
+//professor(a).
+// Faça um programa no qual seja digitado a quantidade de alunos da turma
+// e mostrando quantos bombons no total devem ser comprados.
+
+    function bombom(){
+        let aluno = prompt(`Quantidade de que voltarão as aulas?\nResposta:`);
+        let professor = 1;
+        let calculo = aluno * 2
+        alert(`Bombons que devem ser distribuídos aos alunos(a), deve ser:\n${calculo}`);
+    };
+    bombom();
