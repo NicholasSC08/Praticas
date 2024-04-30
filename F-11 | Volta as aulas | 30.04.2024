@@ -4,7 +4,7 @@
 // e mostrando quantos bombons no total devem ser comprados.
 
     function bombom(){
-        let aluno = prompt(`Quantidade de que voltarão as aulas?\nResposta:`);
+        let aluno = prompt(`Quantidade de alunos(a) que voltarão as aulas?\nResposta:`);
         let professor = 1;
         let calculo = aluno * 2
         alert(`Bombons que devem ser distribuídos aos alunos(a), deve ser:\n${calculo}`);
