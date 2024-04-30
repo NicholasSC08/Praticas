@@ -1,0 +1,15 @@
+//5) Uma feira de livros está fazendo promoção onde na compra de 3 livros, o(a) comprador(a) ganha 15% 
+//de desconto. Criar um programa que receba os valores dos 3 livros e mostra na tela o total dos livros
+//sem desconto e com desconto.
+
+function livros(){
+    let livroA = Number(prompt(`Digite o valor do primeiro livro:\nRespota:`));
+    let livroB = Number(prompt(`Digite o valor do segundo livro:\nResposta:`));
+    let livroC = Number(prompt(`Digite o valor do terceiro livro:\nRespota:`));
+
+    let calculoSemDesconto = livroA + livroB + livroC
+   let calculoComDesconto = calculoSemDesconto * 0.85
+
+    alert(`O total dos livros sem os 15% de desconto ficaria: R$${calculoSemDesconto}\nJá os livros com o desconto ficará por: R$${calculoComDesconto}`);
+};
+livros();
