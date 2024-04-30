@@ -1,0 +1,10 @@
+//4) Um(a) programador(a) deseja, ao final do mês, saber quantas horas por semana em média estudou
+//programação. Crie um programa no qual seja digitado
+//a quantidade de horas de cada semana do mês e no final mostre a média de horas por semana naquele mês.
+    
+function mediaDeHoras(){
+    let horas = prompt(`Quantidade de horas que o aluno ficou no mês?\nResposta:`);
+    let calculo = horas / 4
+    alert(`A quantidade de horas que o aluno ficou em cada semana do mês foi de:\nResposta: ${calculo}Hrs.`);
+};
+mediaDeHoras();
