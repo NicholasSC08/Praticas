@@ -1,0 +1,13 @@
+//2) Na sua lista de compras do mercado, constam apenas 3 itens: arroz, batata palha e um suco de garrafa.
+//Porém, você possui apenas uma nota de R$100 para pagar. 
+//Faça um programa no qual sejam digitados os valores dos itens e mostre na tela valor que você deve receber (troco).
+    
+    function compras(){
+        arroz = prompt(`Digite o valor do Arroz:\nResposta:`);
+        batataPalha = prompt(`Digite o valor da Batata Palha\nResposta:`);
+        sucoDeGarrafa = prompt(`Digite o valor do Suco de Garrafa\nResposta:`);
+        carteira = 100;
+        troco = carteira - arroz - sucoDeGarrafa - batataPalha;
+        alert(`O seu troco é de:\nR$${troco}`);
+    };
+    compras();
