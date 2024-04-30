@@ -1,0 +1,8 @@
+//1) Criar um programa que receba o nome, idade e endereço de uma pessoa e mostre na tela esses dados.
+        
+        let nome = prompt(`Qual o seu nome?`);
+        let idade = Number(prompt(`Qual sua idade${"\n"}Resposta:`));
+        let endereco = prompt(`Qual seu endereço?${"\n"}Resposta:`);
+       let informacoes = `Nome: ${nome}. ${"\n"} Idade: ${idade}. ${"\n"} Endereço: ${endereco}.`;
+       alert(informacoes);
+       console.log(`Nome: ${nome}. ${"\n"}Idade: ${idade}. ${"\n"}Endereço: ${endereco}.`)
