@@ -1,0 +1,9 @@
+//Função de Boas vindas + log no console e com um write no html para quando o usuário entrar aparecer em seru monitor.
+
+let nome = prompt(`Qual seu nome?\nResposta:`);
+        function boasVindas(){
+            
+            console.log(`Seja Bem-vindo(a) ${nome}!`);
+            alert(`Seja Bem-vindo(a) ${nome}!`);
+        };
+        boasVindas();
