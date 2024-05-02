@@ -1,0 +1,7 @@
+let num1 = Number(prompt(`Digite o primeiro número:`));
+     let num2 = Number(prompt(`Digite um segundo número:`));
+     function soma(){
+        let adicao = num1 + num2;
+        alert(`O resultado de sua conta é: ${adicao}`);
+     };
+     soma();
