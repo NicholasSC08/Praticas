@@ -1,0 +1,7 @@
+let num1 = Number(prompt(`Digite o primeiro número:`))
+     let num2 = Number(prompt(`Digite o segundo número:`));
+     function subtracao() {
+        let calculo = num1 - num2
+        alert(`O resultado de sua operação é de: ${calculo}`); 
+    };
+     subtracao();
