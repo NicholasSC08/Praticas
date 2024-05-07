@@ -1,0 +1,13 @@
+    //1) Desenvolver um programa que realize o cálculo de consumo de combustível por quilometragem, para veículos (km por litro). 
+    //Para isso, devem ser digitados os dados de distância total percorrida (km) e total de combustível gasto (litros), mostrando o resultado ao final.
+    
+    
+    function qualAQuantidadeDeKmPorLitro(){
+        let quantidadeDeKmPercorrido = Number(prompt("Quantidade de Quilometros percorrido? (KM)"));
+        let quantidadeDeCombustivelGasto = Number(prompt("Qual a quantidade de combustível gasto?"));
+        let quantidadeDeCombustivelPorKmGasto = quantidadeDeKmPercorrido / quantidadeDeCombustivelGasto
+        
+        alert(`Sua quantidade de combustível gasto por Km foi de:\n${quantidadeDeCombustivelPorKmGasto} Litros.`);
+    };
+    
+    qualAQuantidadeDeKmPorLitro();
