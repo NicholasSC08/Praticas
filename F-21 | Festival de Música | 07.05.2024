@@ -1,0 +1,16 @@
+function totalAPagar(){
+let diaria = 280;
+let café = 15
+let quantidadeDePessoas = Number(prompt(`Quantas pessoas ficarão na pousada?`));
+let quantidadeDeDiarias = Number(prompt(`Quantos dias você deseja permanecer na pousada?`));
+let quantidadeDePessoasQueIramQuererCafe = Number(prompt(`Quantas pesoas irão querer café?`));
+let valorTotalDaDiaria = diaria * quantidadeDeDiarias;
+let valorTotalDoCafe = quantidadeDePessoas * café * quantidadeDeDiarias;
+let valorTotal = valorTotalDaDiaria + valorTotalDoCafe;
+
+alert(`Quantidade de pessoas que ficaram na pousada: ${quantidadeDePessoas}.
+\nQuantidade de diárias: ${quantidadeDeDiarias}.
+\nQuantidade de pessoas que iram querer café:${quantidadeDePessoasQueIramQuererCafe}.
+\nO valor de sua compra ficará um total de: ${valorTotal}`);
+};
+totalAPagar();
