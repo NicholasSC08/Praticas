@@ -1,0 +1,17 @@
+    //2) Um festival de música está terceirizando a montagem da estrutura.
+    //A empresa contratada necessita saber uma estimativa de público para calcular a quantidade de bares e banheiros. 
+    //O cálculo utilizado é de 1 banheiro para cada 50 pessoas e 1 bar para cada 150 pessoas. 
+    //Criar um programa onde seja digitado o público esperado e mostrar na tela em média quantos banheiros e bares seriam necessários.
+    function calcularQuantidadeDeBanheirosEBares(){
+        let quantidadeDePessoas = Number(prompt(`Quantas pessoas vão estar presente no festival de música?`));
+        let quantidadeDePessoasParaUmBanheiro = 50;
+        let quantidadeDePessoasParaUmBar = 150;
+        let quantidadeDeBanheiros
+        let quantidadeDeBar
+        quantidadeDeBanheiros = quantidadeDePessoas / quantidadeDePessoasParaUmBanheiro; 
+        quantidadeDeBar = quantidadeDePessoas / quantidadeDePessoasParaUmBar
+        alert(`A quantidade de pessoas que estarão presenteno evento será de: ${quantidadeDePessoas}
+        \nQuantidade de Banheiros que serão necessários para o evento: ${quantidadeDeBanheiros}
+        \nQuantidade de Bares que serão necessários para o evento: ${quantidadeDeBar}`);
+    }
+calcularQuantidadeDeBanheirosEBares();
