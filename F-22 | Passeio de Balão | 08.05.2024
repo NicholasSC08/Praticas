@@ -1,0 +1,16 @@
+ function calculoDoPrecoDaViagemDoFestivalDeBalonismo(){
+        const valorDeUmMetroCubicoDeGas = 15;
+        const taxaPorPessoas = 20;
+        let quantidadeDePessoas = Number(prompt(`Quantas pessoas irão no passeio?\n(Máximo 4)`));
+        let quantidadeDeTempo = Number(prompt(`Quanto tempo o passeio irá durar?`));
+        let calculoDeTaxaPorPessoa = quantidadeDePessoas * taxaPorPessoas;
+        let calculoDaViagem = valorDeUmMetroCubicoDeGas * quantidadeDeTempo;
+        let valorTotalDaViagem = calculoDaViagem + calculoDeTaxaPorPessoa;
+        if(quantidadeDePessoas > 4){
+            alert(`O limite de pessoas é 4, favor inserir um valor menor.`);
+        } else {
+            alert(`O total da viagem ficará por: R$:${valorTotalDaViagem}`);
+        };
+
+    };
+    calculoDoPrecoDaViagemDoFestivalDeBalonismo();
