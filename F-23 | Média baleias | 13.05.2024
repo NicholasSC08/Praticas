@@ -1,0 +1,19 @@
+//5) As baleias da Groenlândia estão entre os animais que vivem mais tempo na Terra, em média 200 anos.
+//A reprodução se dá a cada 4 anos, tendo somente 1 filhote por vez.
+//Programar um sistema que calcule o total de filhotes ao longo da vida e a média de filhotes de uma baleia dessa espécie por década.
+
+function calculoDoTotalDeFilhotesAoLongoDaVidaEAMediaPorDedaca(){
+let idadeBaleia = 200;
+let taxaDeFilhotes = 4;
+let numeroDeFilhotes = 1;
+let decada = 10;
+let mediaDeDecadasAoLongoDaVida = idadeBaleia / decada;
+let totalDeFilhotes =  idadeBaleia / taxaDeFilhotes;
+let mediafilhote = totalDeFilhotes / mediaDeDecadasAoLongoDaVida;
+
+ alert(`O total de filhotes ao longo da vida é de: ${totalDeFilhotes} filhotes.`);
+ alert(`A média de filhotes ao longo da vida é de: ${mediafilhote} filhotes.`);
+ console.log(`O total de filhotes ao longo da vida é de: ${totalDeFilhotes} filhotes.`);
+};
+
+calculoDoTotalDeFilhotesAoLongoDaVidaEAMediaPorDedaca();
